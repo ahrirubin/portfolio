@@ -16,6 +16,7 @@ import web1 from "/public/web1.png";
 import web2 from "/public/web2.png";
 import web3 from "/public/web3.png";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -177,10 +178,19 @@ export default function Home() {
             </div>
 
             <div className="md:flex md:pb-5">
-              <Image
-                className="pb-5 md:w-[300px] lg:w-[400px] mx-auto"
-                src={web2}
-              />
+              <div className="w-full">
+                <Link
+                  href={
+                    "https://chas-redesign-git-main-ahrirubins-projects.vercel.app/"
+                  }
+                >
+                  <Image
+                    className="pb-5 md:w-[300px] lg:w-[400px]"
+                    src={web2}
+                  />
+                </Link>
+              </div>
+
               <div className="md:px-10">
                 <h3 className="text-2xl md:text-3xl py-1 text-[#BA68C8] lg:font-semibold">
                   Zoom re-design
@@ -194,10 +204,17 @@ export default function Home() {
             </div>
 
             <div className="md:flex">
-              <Image
-                className="pb-5 md:w-[300px] lg:w-[400px] mx-auto"
-                src={web3}
-              />
+              <div className="w-full">
+                <Link
+                  href={"https://tailwind-ahrirubins-projects.vercel.app/ "}
+                >
+                  <Image
+                    className="pb-5 md:w-[300px] lg:w-[400px]"
+                    src={web3}
+                  />
+                </Link>
+              </div>
+
               <div className="md:px-10">
                 <h3 className="text-2xl md:text-3xl py-1 text-slate-900 lg:font-semibold dark:text-slate-200">
                   Recreate tailwind
