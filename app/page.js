@@ -64,7 +64,7 @@ export default function Home() {
             max-w-lg mx-auto dark:text-slate-400 "
             >
               Freelancer providing services for programming and design content
-              needs. Join me below and let's get cracking!
+              needs. Join me below and let&apos;s get cracking!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 dark:text-slate-400">
@@ -91,8 +91,8 @@ export default function Home() {
               Services I offer
             </h3>
             <p className="text-md py-2 leading-8 text-gray-600 font-semibold md:max-w-8xl dark:text-slate-400">
-              Since the beginning of my journey as a Freelancer developer, I've
-              done remote work for
+              Since the beginning of my journey as a Freelancer developer,
+              I&apos;ve done remote work for
               <span className="text-teal-500 font-semibold"> agencies</span>,
               consulted for
               <span className="text-teal-500 font-semibold"> starups </span>
@@ -167,7 +167,7 @@ export default function Home() {
                 md:max-w-8xl dark:text-slate-400"
                 >
                   As an assignment, i created a mock-up portfolio using react
-                  and tailwind. I followed developedbyed's tutorial.
+                  and tailwind. I followed developedbyed&apos;s tutorial.
                 </p>
               </div>
             </div>
@@ -201,8 +201,8 @@ export default function Home() {
                   Recreate tailwind
                 </h3>
                 <p className="text-md py-2 leading-8 text-gray-600 pb-10 font-semibold md:max-w-8xl dark:text-slate-400">
-                  As an assignment, i recreated a section of tailwind's homepage
-                  to get familiar with using tailwind instead of css.
+                  As an assignment, i recreated a section of tailwind&apos;s
+                  homepage to get familiar with using tailwind instead of css.
                 </p>
               </div>
             </div>
