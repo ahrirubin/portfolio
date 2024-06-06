@@ -30,7 +30,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-slate-900">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-bold dark:text-slate-400">
+            <h1 className="text-xl font-bold text-slate-800 dark:text-slate-400">
               AHRI RUBIN
             </h1>
             <ul className="flex items-center">
@@ -67,7 +67,7 @@ export default function Home() {
               needs. Join me below and let&apos;s get cracking!
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 dark:text-slate-400">
+          <div className="text-5xl flex justify-center gap-16 py-3 text-slate-800 dark:text-slate-400">
             <AiFillTwitterCircle href="#" className="cursor-pointer" />
             <AiFillLinkedin href="#" className="cursor-pointer" />
             <AiFillGithub href="#" className="cursor-pointer" />
@@ -113,10 +113,10 @@ export default function Home() {
                 height={100}
                 className="mx-auto"
               />
-              <h3 className="text-lg font-semibold pt-8 pb-2 dark:text-slate-200">
+              <h3 className="text-lg font-semibold pt-8 pb-2 text-slate-800 dark:text-slate-200">
                 Beautiful Designs
               </h3>
-              <p className="py-2 px-2 dark:text-slate-400">
+              <p className="py-2 px-2 text-slate-800 dark:text-slate-400">
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
@@ -134,11 +134,11 @@ export default function Home() {
 
             <div className="text-center shadow-lg p10 rounded-xl my-10 lg:w-[500px]  ">
               <Image src={code} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-semibold pt-8 pb-2 dark:text-slate-200">
+              <h3 className="text-lg font-semibold pt-8 pb-2 text-slate-800 dark:text-slate-200">
                 Accessible Code
               </h3>
               <div className="">
-                <p className="pt-2 px-2 dark:text-slate-400 ">
+                <p className="pt-2 px-2 text-slate-800 dark:text-slate-400 ">
                   Creating code that is straightforward and easy to understand
                   to make it easy to alter to your specific needs.
                 </p>
