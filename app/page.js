@@ -1,5 +1,3 @@
-"use client";
-
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
@@ -20,7 +18,6 @@ import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -66,7 +63,7 @@ export default function Home() {
             max-w-lg mx-auto dark:text-slate-400 "
             >
               Freelancer providing services for programming and design content
-              needs. Join me below and let&apos;s get cracking!
+              needs. Join me below and let's get cracking!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 dark:text-slate-400">
@@ -93,8 +90,8 @@ export default function Home() {
               Services I offer
             </h3>
             <p className="text-md py-2 leading-8 text-gray-600 font-semibold md:max-w-8xl dark:text-slate-400">
-              Since the beginning of my journey as a Freelancer developer,
-              I&apos;ve done remote work for
+              Since the beginning of my journey as a Freelancer developer, I've
+              done remote work for
               <span className="text-teal-500 font-semibold"> agencies</span>,
               consulted for
               <span className="text-teal-500 font-semibold"> starups </span>
@@ -157,45 +154,36 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div>
-            <div className="md:flex md:pb-5">
-              <Image
-                className="pb-5 md:w-[300px] lg:w-[400px] mx-auto"
-                src={web1}
-              />
+          <div className=" md:flex">
+            <div className="flex flex-col md:pb-5">
+              <Image className="p-5 w-full mx-auto" src={web1} />
               <div className="md:px-10">
                 <h3 className="text-2xl md:text-3xl py-1 text-teal-600 lg:font-semibold">
                   My portfolio
                 </h3>
                 <p
-                  className="text-md lg:text-xl py-2 leading-8 text-gray-600 pb-10 font-semibold 
+                  className="text-md py-2 leading-8 text-gray-600 pb-10 font-semibold 
                 md:max-w-8xl dark:text-slate-400"
                 >
                   As an assignment, i created a mock-up portfolio using react
-                  and tailwind. I followed developedbyed&apos;s tutorial.
+                  and tailwind. I followed developedbyed's tutorial.
                 </p>
               </div>
             </div>
 
-            <div className="md:flex md:pb-5">
-              <div className="w-full">
-                <Link
-                  href={
-                    "https://chas-redesign-git-main-ahrirubins-projects.vercel.app/"
-                  }
-                >
-                  <Image
-                    className="pb-5 md:w-[300px] lg:w-[400px]"
-                    src={web2}
-                  />
-                </Link>
-              </div>
-
+            <div className="flex flex-col md:pb-5">
+              <Link
+                href={
+                  "https://chas-redesign-git-main-ahrirubins-projects.vercel.app/"
+                }
+              >
+                <Image className="p-5 w-full mx-auto" src={web2} />
+              </Link>
               <div className="md:px-10">
                 <h3 className="text-2xl md:text-3xl py-1 text-[#BA68C8] lg:font-semibold">
                   Zoom re-design
                 </h3>
-                <p className="text-md lg:text-xl py-2 leading-8 text-gray-600 pb-10 font-semibold md:max-w-8xl dark:text-slate-400">
+                <p className="text-md py-2 leading-8 text-gray-600 pb-10 font-semibold md:max-w-8xl dark:text-slate-400">
                   As an assignment, i recreated the Zoom homepage following
                   design rules and colors/pictures to evoke emotion, in this
                   case it is meant to feel playful.
@@ -203,25 +191,17 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="md:flex">
-              <div className="w-full">
-                <Link
-                  href={"https://tailwind-ahrirubins-projects.vercel.app/ "}
-                >
-                  <Image
-                    className="pb-5 md:w-[300px] lg:w-[400px]"
-                    src={web3}
-                  />
-                </Link>
-              </div>
-
+            <div className="flex flex-col md:pb-5">
+              <Link href={"https://tailwind-ahrirubins-projects.vercel.app/ "}>
+                <Image className="p-5 w-full mx-auto" src={web3} />
+              </Link>
               <div className="md:px-10">
                 <h3 className="text-2xl md:text-3xl py-1 text-slate-900 lg:font-semibold dark:text-slate-200">
                   Recreate tailwind
                 </h3>
-                <p className="text-md lg:text-xl py-2 leading-8 text-gray-600 pb-10 font-semibold md:max-w-8xl dark:text-slate-400">
-                  As an assignment, i recreated a section of tailwind&apos;s
-                  homepage to get familiar with using tailwind instead of css.
+                <p className="text-md py-2 leading-8 text-gray-600 pb-10 font-semibold md:max-w-8xl dark:text-slate-400">
+                  As an assignment, i recreated a section of tailwind's homepage
+                  to get familiar with using tailwind instead of css.
                 </p>
               </div>
             </div>
